@@ -22,7 +22,7 @@ public class DemoApplication {
        
 	@GetMapping("/")
         public String healthCheck(){
-                return "Criar um Pipeline para build e deploy de uma aplicação | CONCLUIDO";
+                return "HEALTH CHECK OK!";
         }
 
 	@GetMapping("/secured")
@@ -59,12 +59,12 @@ public class DemoApplication {
 	
 	@GetMapping("/10CLDR")
 	String cldr(){
-		return "Criar um Pipeline para build e deploy de uma aplicação | CONCLUIDO";
+		return "CONCLUIDO";
 	}
 
 	@GetMapping("/7DVPR")
 	String DVP7(){
-		return "Criar um Pipeline para build e deploy de uma aplicação | CONCLUIDO";
+		return "HEALTH CHECK OK!";
 	}
 	
 }	
